@@ -1,0 +1,35 @@
+<hr>
+<div class="backgroundDiv">
+    <h1>FACTORY NAME:{{company}}</h1><h2>LOCATION:{{location}}</h2>
+    <button><a routerLink="/addproduct" routerLinkActive="Active"><span class="material-icons">
+
+      add
+
+      </span></a>new Product</button>
+      <hr>
+    <table>
+      <tr>
+        <th>Product Id</th>
+        <th>Product Name</th>
+        <th>Quantity</th>
+        <th>Edit</th>
+        <th>Delete</th>
+    </tr>
+     <tr  *ngFor="let row of data,let i=index" >
+         <td>{{i+1}}</td>
+         <td (click)="productdetails(row)">{{row.productName}}</td>
+         <td>{{row.quantity}}</td>
+         <td><button ><a routerLink="/editproduct" routerLinkActive="Active"><span class="material-icons">
+          mode_edit
+          </span></a></button></td>
+       <td><a href="Del"><span class="material-icons">
+          delete
+          </span></a></td>
+     </tr>
+    
+    </table>
+  </div> 
+    
+      
+      
+      

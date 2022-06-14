@@ -1,0 +1,27 @@
+.bgDiv {
+  /* background-image: url(https://tse2.mm.bing.net/th?id=OIP.ensiLtlsMoQxpqIoO-IyYgHaEo&pid=Api&P=0&w=265&h=166); */
+  height: 100vh;
+background-color: rgb(241, 246, 244);
+
+}
+h1 {
+    text-align: center;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+    margin-left: 170px;
+    text-align: center;
+    background-image: url(https://images.unsplash.com/photo-1557064262-6acc904bffbd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1964&q=80);
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 10px;
+    text-align: center;
+    
+  }
+  
+ 

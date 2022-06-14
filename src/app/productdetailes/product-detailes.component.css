@@ -1,0 +1,45 @@
+body {
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    height: 600px;
+    margin-right: 10px;
+    width: 1500px;
+    background-image: url(https://images.unsplash.com/photo-1557064262-6acc904bffbd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1964&q=80);
+    }
+label {
+    font-size:x-large;
+    margin-left: 15px;
+}
+#Quantity 
+    {
+        margin-top: 40px;
+        height: 40px;
+        width: 300px;
+
+         }
+   #quan {
+       margin-left: 65px;
+   }
+   #Description {
+       margin-top: 20px;
+       height: 150px;
+       width: 300px;
+    
+   }
+   div {
+       float: right;
+       margin-right: 40px;
+   }
+   #productName {
+       height: 40px;
+       width: 300px;
+   }
+   h2 {
+    margin-top: 300px;
+    text-align: center;
+    margin-right: 80px;
+    font-size: x-large;
+}
+    #desc{
+        margin-bottom: 160px;
+    }

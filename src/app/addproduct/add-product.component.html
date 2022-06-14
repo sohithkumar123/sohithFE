@@ -1,0 +1,46 @@
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <h1 >ADD NEW PEODUCT</h1>
+    <hr/>
+    <div class="container">
+       <div class="row">
+        <div class="col-5">
+            <label id="name" for="productName"><b>Product Name:</b></label>
+            <input type="text" id="productName" name="name of Product" [(ngModel)]="name" class="form-control"/>
+            <label id="quan"  for="Quantity"><b>Quantity:</b></label>
+            <input type="number" id="Quantity"  name="About Quantity" [(ngModel)]="quantity" class="form-control"/>
+           <label id="des" for="Description"><b>Description:</b></label>
+            <input type="text" id="Description" name=" Product Description" [(ngModel)]="description"><br>
+            
+                    
+            
+        </div>
+        
+       </div>
+    </div>
+   <br/>
+   <div class="container">
+       <div class="row">
+           <div class="col-4">
+               <label> <b>Product Image:</b></label>
+           </div>
+
+           <div class="col-8">
+               <input type="file"class="form-control"/>
+           </div>
+       </div>
+      <br>
+
+       <div class="d-grid gap-2">
+        <button (click)="addProduct()" class="btn btn-primary">Submit</button>
+        
+      </div>
+   </div>
+   <hr/>
+</body>
+
+
